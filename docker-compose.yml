@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  node-app:
+    build: .
+    image: homework-image:tag1
+    ports:
+      - '9999:9999'
